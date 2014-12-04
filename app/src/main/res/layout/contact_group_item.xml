@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/relative_setting_list_item"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:descendantFocusability="blocksDescendants">
+
+        <ImageView
+            android:id="@+id/contact_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dip"
+            android:background="#00ffffff"
+            android:src="@drawable/ic_contact_right" />
+        <TextView
+            android:id="@+id/contact_group_name"
+            style="@style/setting_item_text_tip_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dip"
+            android:ellipsize="end"
+            android:text="profile"
+            android:layout_marginRight="10dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_devide_line"
+        style="@style/listview_divideline_style"/>
+</LinearLayout>

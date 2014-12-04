@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="titlezone_bg_style">
+        <item name="android:layout_height">49dip</item>
+        <item name="android:background">#ff313242</item>
+    </style>
+
+
+    <style name="txt_title">
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- 设置项中两个区域中间的间隔样式 -->
+    <style name="setting_dividezone">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">15dip</item>
+    <item name="android:drawableTop">#ffcccccc</item>
+    <item name="android:drawableBottom">#ffcccccc</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:textColor">#ff999999</item>
+    <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 列表分隔线 -->
+    <style name="listview_divideline_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">#ffdfe1f0</item>
+    </style>
+
+    <!-- 设置条目中左侧文本文字说明的样式 -->
+    <style name="setting_item_text_tip_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+</resources>
